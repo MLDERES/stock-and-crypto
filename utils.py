@@ -19,6 +19,7 @@ MARKET_CAP = 'market cap'
 FALSE_VALUES = ['No', 'no', 'n', 'N','F','False', 'FALSE']
 TRUE_VALUES = ['Yes', 'yes', 'y', 'Y','T','True','TRUE']
 DATA_PATH = Path('./data')
+TODAY = pd.datetime.today()
 
 def get_latest_file(file_path, filename_like, file_ext):
     """

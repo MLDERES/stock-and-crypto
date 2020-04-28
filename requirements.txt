@@ -1,2 +1,4 @@
 pathlib2
 alpha_vantage
+holidays
+plotnine
